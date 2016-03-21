@@ -14,6 +14,10 @@
 		183485951C9D95E300E13500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183485931C9D95E300E13500 /* LaunchScreen.storyboard */; };
 		183485A01C9D95E300E13500 /* MorehouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1834859F1C9D95E300E13500 /* MorehouseTests.swift */; };
 		183485AB1C9D95E400E13500 /* MorehouseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183485AA1C9D95E400E13500 /* MorehouseUITests.swift */; };
+		183485B91C9D98A000E13500 /* ImageCaptionsViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183485B81C9D98A000E13500 /* ImageCaptionsViewControllerTableViewController.swift */; };
+		183485BC1C9D9DE600E13500 /* ImageCaptionEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183485BA1C9D9DE600E13500 /* ImageCaptionEditViewController.swift */; };
+		183485BD1C9D9DE600E13500 /* ImageCaptionEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183485BB1C9D9DE600E13500 /* ImageCaptionEditViewController.xib */; };
+		183485BF1C9DB70200E13500 /* ImageCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183485BE1C9DB70200E13500 /* ImageCaption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		183485A61C9D95E400E13500 /* MorehouseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorehouseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		183485AA1C9D95E400E13500 /* MorehouseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorehouseUITests.swift; sourceTree = "<group>"; };
 		183485AC1C9D95E400E13500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183485B81C9D98A000E13500 /* ImageCaptionsViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCaptionsViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		183485BA1C9D9DE600E13500 /* ImageCaptionEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCaptionEditViewController.swift; sourceTree = "<group>"; };
+		183485BB1C9D9DE600E13500 /* ImageCaptionEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCaptionEditViewController.xib; sourceTree = "<group>"; };
+		183485BE1C9DB70200E13500 /* ImageCaption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCaption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,15 @@
 			isa = PBXGroup;
 			children = (
 				1834858A1C9D95E300E13500 /* AppDelegate.swift */,
+				183485B81C9D98A000E13500 /* ImageCaptionsViewControllerTableViewController.swift */,
+				183485BA1C9D9DE600E13500 /* ImageCaptionEditViewController.swift */,
+				183485BB1C9D9DE600E13500 /* ImageCaptionEditViewController.xib */,
 				1834858C1C9D95E300E13500 /* ViewController.swift */,
 				1834858E1C9D95E300E13500 /* Main.storyboard */,
 				183485911C9D95E300E13500 /* Assets.xcassets */,
 				183485931C9D95E300E13500 /* LaunchScreen.storyboard */,
 				183485961C9D95E300E13500 /* Info.plist */,
+				183485BE1C9DB70200E13500 /* ImageCaption.swift */,
 			);
 			path = Morehouse;
 			sourceTree = "<group>";
@@ -230,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				183485951C9D95E300E13500 /* LaunchScreen.storyboard in Resources */,
+				183485BD1C9D9DE600E13500 /* ImageCaptionEditViewController.xib in Resources */,
 				183485921C9D95E300E13500 /* Assets.xcassets in Resources */,
 				183485901C9D95E300E13500 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1834858D1C9D95E300E13500 /* ViewController.swift in Sources */,
+				183485BF1C9DB70200E13500 /* ImageCaption.swift in Sources */,
+				183485BC1C9D9DE600E13500 /* ImageCaptionEditViewController.swift in Sources */,
+				183485B91C9D98A000E13500 /* ImageCaptionsViewControllerTableViewController.swift in Sources */,
 				1834858B1C9D95E300E13500 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

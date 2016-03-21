@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let imageCaptionsController = ImageCaptionsViewControllerTableViewController()
+        let navController = UINavigationController.init(rootViewController: imageCaptionsController)// creates navigation controller
+        self.window?.rootViewController = navController //root view controller is now nav controller
+    
+        
         return true
     }
 
